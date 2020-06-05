@@ -815,8 +815,8 @@ button.btn--primary,
 input[type="submit"].btn--primary, 
 input[type="reset"].btn--primary, 
 input[type="button"].btn--primary {
-    background: #0D0A0B;
-    border-color: #0D0A0B;
+    background: #862121;
+    border-color: #862121;
     color: #FFFFFF;
 }
 
@@ -887,6 +887,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 4px 2px;
     cursor: pointer;
 
+}
+
+.footer-email-us .btn:hover,
+.footer-email-us .btn:focus {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #000000;
+}
+
+.h-full-width,
+.h-full-width {
+  width: 100%;
+  margin-right: 0;
 }
 
 
